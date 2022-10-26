@@ -1,0 +1,99 @@
+/*Parte del encabezado*/
+
+header {
+background-color: brown;
+margin: 15px 20px 30px 25px;
+padding: 15px 20px 30px 25px;
+border: solid 5px black;
+height: auto;
+text-decoration:underline;
+}
+
+body {background-color: aquamarine;}
+
+/*Cuerpo de la pagina*/
+
+#content {
+    background-color: rgb(243, 219, 219);
+    margin: 15px 20px 30px 25px;
+    padding: 20px 20px 30px 25px;
+    border: solid 5px black; 
+}
+
+#content h1 {color: rgb(46, 0, 88);
+    text-decoration: underline;
+text-shadow: 3px 5px 5px rgb(255, 0, 0);
+text-align: center;
+}
+
+#content p { 
+    color: rgb(132, 0, 255);
+    text-align: justify;
+    font-family:'Trebuchet MS';
+}
+#content2 {
+    background-color: rgb(233, 200, 200);
+    margin: 15px 20px 30px 25px;
+    padding: 20px 20px 30px 25px;
+    border: solid 5px rgb(42, 42, 42);
+}
+
+#content2 h1 {color: rgb(132, 0, 255);
+    text-decoration: underline;
+    text-shadow: 3px 5px 5px rgb(249, 60, 255);
+}
+
+#content2 p { 
+    color: rgb(132, 0, 255);
+    text-align: justify; 
+    font-family:'Trebuchet MS';
+}
+
+
+
+#content3 {
+    background-color: rgb(3, 93, 172);
+    margin: 15px 20px 30px 25px;
+    padding: 20px 20px 30px 25px;
+    border: solid 5px rgb(42, 42, 42);
+}
+
+#content3 h1 { color: aqua;
+text-decoration: underline;
+text-shadow: 3px 5px 5px rgb(54, 0, 147);}
+
+#content3 ul {color: rgb(0, 255, 255);
+    font-family:'Trebuchet MS';
+}
+
+
+/*Seccion de imagenes*/
+
+.primer {
+    margin: auto;
+    padding: auto;
+     border: solid 5px rgb(0, 0, 0);
+}
+
+.segun {
+   margin: auto;
+   padding: auto;
+    border: solid 5px rgb(255, 0, 0);
+}
+
+/*Parte final*/
+
+footer  {
+    background-color: brown;
+    margin: 15px 20px 30px 25px;
+    padding: 15px 20px 30px 25px;
+    border: solid 5px black; 
+    text-align: center;
+    font-family:'Trebuchet MS';
+
+}
+
+a:link {color: black;}
+a:visited {color: yellow;}
+a:hover {color: rgb(0, 242, 255);}
+a:active{color: white;}

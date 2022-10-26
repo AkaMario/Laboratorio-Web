@@ -1,0 +1,212 @@
+body {
+    background: #ecf587;
+}
+/*NAVEGADOR Y ENCABEZADO ---------------------------------------------------------------------------*/
+
+
+.contenedor {
+    width: 95%;
+    max-width: 1000px;
+    margin: auto;
+
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgb(248, 217, 79);
+    margin-bottom: 10px;
+    border-radius: 15px;
+    box-shadow: 0 0 6px 0 rgba(2, 2, 2, 0.8);
+}
+
+
+header ul {
+    list-style: none;
+    overflow: hidden;
+    border-radius: 15px;
+}
+
+header nav ul li {
+    float: left;
+
+}
+
+header nav ul li a {
+    display: block;
+    padding: 65px;
+    font-family: 'Trebuchet MS';
+    color: rgb(114, 112, 112);
+    text-decoration: none;
+    
+}
+
+header nav ul li a:hover {
+    background: rgb(247, 198, 3);
+
+}
+
+
+.encabezado {
+    display: flex;
+    margin: 20px;
+    padding: 30px;
+    border-radius: 10px;
+    text-align: center;
+    color: rgb(114, 112, 112);
+    box-shadow: 0 0 6px 0 rgba(2, 2, 2, 0.8);
+    background: rgb(248, 217, 79);
+
+
+}
+
+.logo {
+
+    display: flex;
+    margin-left: 20%;
+    padding-bottom: 1%;
+    padding-top: 1%;
+    
+}
+
+.titulo {
+    margin-left: 15%;
+    font-family: 'Trebuchet MS';
+}
+
+.titulo h1 {
+    text-shadow: 
+    3px 3px 1px rgb(207, 233, 5),
+    5px 5px 2px rgb(255, 255, 89),
+    8px 8px 3px rgb(245, 214, 13);
+    
+}
+
+/*CONTENIDO--------------------------------------------------------------*/
+
+section{
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+}
+
+.cuadros h3{
+    font-family: 'Trebuchet MS';
+    color: rgb(114, 112, 112);
+    text-align: center;
+}
+
+.cuadros{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+    width: 250px;
+    margin: 40px;
+    box-shadow: 0 0 6px 0 rgba(2, 2, 2, 0.8);
+    border-radius: 10px;
+    background: rgb(248, 217, 79);
+}
+
+.cuadros img{
+    height: 100px;
+    margin: 0 auto;
+}
+
+.grupo{
+    display: flex;
+    text-align: center;
+    
+}
+
+/*FORMULARIO-------------------------------------------------------------------------------------------------*/
+
+.formulario {
+    display: flex;
+    justify-content: flex-end;
+    background-color: #bbc206;
+    font-family: 'Trebuchet MS';
+    color: white;
+    border: solid #fff;
+    border-radius: 25px;
+    box-shadow: 0 0.1rem 0.4rem rgb(168, 240, 24);
+}
+
+.form h4 {
+    font-size: 22px;
+    margin-bottom: 20px;
+    text-align: center;
+
+}
+
+.controls {
+    width: 90%;
+    background: #eff54c;
+    padding: 5px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid rgb(255, 255, 255);
+    font-family: 'Trebuchet MS';
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+}
+
+.form .botons {
+    width: 100px;
+    background: rgb(232, 232, 70);
+    border: none;
+    padding: 10px;
+    color: rgb(114, 112, 112);
+    margin: 50px;
+    font-size: 15px;
+    border: 1px solid rgb(255, 255, 255);
+}
+
+
+.control {
+
+    width: 100%;
+    padding: 8px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid rgb(119, 255, 0);
+    font-family: 'calabri';
+    font-size: 18px;
+}
+
+button {
+    width: 100px;
+    background: rgb(232, 232, 70);
+    border: none;
+    padding: 10px;
+    color: rgb(114, 112, 112);
+    font-size: 15px;
+    border: 1px solid rgb(255, 255, 255);
+}
+
+
+hr {
+    margin-top: 3%;
+    height: 5px;
+    background-color: #bbc206;
+}
+
+
+
+/*FINAL--------------------------------------------------------------------------*/
+
+footer {
+    text-align: center;
+    font-family: 'Trebuchet MS';
+    color: rgb(114, 112, 112);
+
+
+}
+
+footer h3 {
+    font-family: 'Trebuchet MS';
+    color: rgb(114, 112, 112);
+
+}
