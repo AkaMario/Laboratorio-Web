@@ -1,6 +1,7 @@
 body {
     background: #ecf587;
 }
+
 /*NAVEGADOR Y ENCABEZADO ---------------------------------------------------------------------------*/
 
 
@@ -39,7 +40,7 @@ header nav ul li a {
     font-family: 'Trebuchet MS';
     color: rgb(114, 112, 112);
     text-decoration: none;
-    
+
 }
 
 header nav ul li a:hover {
@@ -67,7 +68,7 @@ header nav ul li a:hover {
     margin-left: 20%;
     padding-bottom: 1%;
     padding-top: 1%;
-    
+
 }
 
 .titulo {
@@ -76,28 +77,28 @@ header nav ul li a:hover {
 }
 
 .titulo h1 {
-    text-shadow: 
-    3px 3px 1px rgb(207, 233, 5),
-    5px 5px 2px rgb(255, 255, 89),
-    8px 8px 3px rgb(245, 214, 13);
-    
+    text-shadow:
+        3px 3px 1px rgb(207, 233, 5),
+        5px 5px 2px rgb(255, 255, 89),
+        8px 8px 3px rgb(245, 214, 13);
+
 }
 
 /*CONTENIDO--------------------------------------------------------------*/
 
-section{
+section {
     display: flex;
     justify-content: center;
     padding: 50px;
 }
 
-.cuadros h3{
+.cuadros h3 {
     font-family: 'Trebuchet MS';
     color: rgb(114, 112, 112);
     text-align: center;
 }
 
-.cuadros{
+.cuadros {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -110,15 +111,15 @@ section{
     background: rgb(248, 217, 79);
 }
 
-.cuadros img{
+.cuadros img {
     height: 100px;
     margin: 0 auto;
 }
 
-.grupo{
+.grupo {
     display: flex;
     text-align: center;
-    
+
 }
 
 /*FORMULARIO-------------------------------------------------------------------------------------------------*/
@@ -193,7 +194,58 @@ hr {
     background-color: #bbc206;
 }
 
+.Tarjetas {
+    background: rgb(248, 217, 79);
+    text-align: center;
+    width: 220px;
+    height: 150px;
+    margin-top: 100px;
+    margin-left: -610px;
+    top: 1115px;
+    position: absolute;
+    filter: drop-shadow(8px 8px 4px #8d8f69);
+    border: solid 3px #eaff04;
+    transform: rotate(8deg)
+}
 
+.Transacciones {
+    background: rgb(248, 217, 79);
+    text-align: center;
+    width: 220px;
+    height: 210px;
+    margin-top: 620px;
+    margin-left: -610px;
+    top: 355px;
+    position: absolute;
+    filter: drop-shadow(8px 8px 4px #8d8f69);
+    border: solid 3px #eaff04;
+    transform: rotate(-10deg)
+}
+
+.Transacciones h2 {
+    font-size: 22px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-family: 'Trebuchet MS';
+    color: rgb(114, 112, 112);
+}
+.Tarjetas h2 {
+    font-size: 22px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-family: 'Trebuchet MS';
+    color: rgb(114, 112, 112);
+}
+
+.Transacciones p {
+    font-family: 'Trebuchet MS';
+    color: rgb(0, 0, 0);
+}
+
+.Tarjetas p {
+    font-family: 'Trebuchet MS';
+    color: rgb(0, 0, 0);
+}
 
 /*FINAL--------------------------------------------------------------------------*/
 
